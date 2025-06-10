@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        BrogginiCzabanak Experimental Neurosurgery
       image:
         filename: welcome.jpg
       text: |
