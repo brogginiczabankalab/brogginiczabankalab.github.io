@@ -42,12 +42,12 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
+    show_logo: true
     logo: "logo-dark-text.png"
     logo_dark: "logo-light-text.png"
       text: "Your Name"
 
-#    align: r
-#    show_logo: true
+    align: r
 #    show_language: false
 #    show_day_night: true
 #    show_search: true
