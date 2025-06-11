@@ -43,8 +43,8 @@ header:
     show_search: true
     highlight_active_link: false
       # Logo.
-  # Main logo (for light mode)
-  logo: "logo-dark-text.png"
+     # Main logo (for light mode)
+    logo: "logo-dark-text.png"
 
   # Dark mode logo (for dark mode)
   logo_dark: "logo-light-text.png"
