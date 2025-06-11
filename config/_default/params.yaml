@@ -37,30 +37,11 @@ header:
   navbar:
     enable: true
     align: r
-    blox: "navbar"
-    fixed_to_top: true
-    show_search: true
-    show_theme_chooser: true
     show_logo: true
-    logo: "logo-dark-text.png"
-    logo_dark: "logo-light-text.png"
-      text: "Your Name"
-#    show_language: false
-#    show_day_night: true
-#    show_search: true
-#    highlight_active_link: false
-      # Logo.
-     # Main logo (for light mode)
-#    logo: "logo-dark-text.png"
-
-  # Dark mode logo (for dark mode)
-#  logo_dark: "logo-light-text.png"
-
-  # Show logo only on homepage?
-#  show_logo_on_homepage_only: false 
-  
-  # Text logo color.
-#  text_color: ''
+    show_language: false
+    show_day_night: true
+    show_search: true
+    highlight_active_link: false
 
 # Site footer
 
