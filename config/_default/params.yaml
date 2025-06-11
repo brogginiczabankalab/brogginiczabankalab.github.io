@@ -36,8 +36,7 @@ marketing:
 header:
   navbar:
     enable: true
-
-
+    align: r
     blox: "navbar"
     fixed_to_top: true
     show_search: true
@@ -46,8 +45,6 @@ header:
     logo: "logo-dark-text.png"
     logo_dark: "logo-light-text.png"
       text: "Your Name"
-
-    align: r
 #    show_language: false
 #    show_day_night: true
 #    show_search: true
