@@ -1,0 +1,17 @@
+// By default (in light mode), show the light-theme logo and hide the dark-theme one.
+.logo-dark {
+  display: none; // The white logo is hidden by default.
+}
+.logo-light {
+  display: inline-block; // The black logo is visible by default.
+}
+
+// When dark mode is active, switch which logo is visible.
+html.dark {
+  .logo-light {
+    display: none; // Hide the black logo.
+  }
+  .logo-dark {
+    display: inline-block; // Show the white logo.
+  }
+}
