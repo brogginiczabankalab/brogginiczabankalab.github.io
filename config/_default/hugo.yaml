@@ -61,12 +61,3 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
-
-#Parameters Section
-
-params:
-  # Site settings
-  branding: true # Make sure this is still true
-  # Add these two lines for the theme-switching logos
-  logo_light_theme: "images/logo-dark-text.png"   # Dark logo for light background
-  logo_dark_theme: "images/logo-light-text.png"   # White logo for dark background

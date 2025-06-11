@@ -121,3 +121,15 @@ publications:
 appearance:
   mode: system
   color: blue
+
+  # Site header
+header:
+  # Logo.
+  # Main logo (for light mode)
+  logo: "logo-dark-text.png"
+
+  # Dark mode logo (for dark mode)
+  logo_dark: "logo-light-text.png"
+
+  # Show logo only on homepage?
+  show_logo_on_homepage_only: false 
