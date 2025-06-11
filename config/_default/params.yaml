@@ -5,11 +5,13 @@
 
 # Appearance
 
-appearance:
+  appearance:
   theme_day: minimal
-  theme_night:
+  theme_night: '' # I assume you want the default dark theme, otherwise specify one
   font: native
   font_size: L
+  mode: system
+  color: blue
 
 # SEO
 
@@ -40,6 +42,18 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
+      # Logo.
+  # Main logo (for light mode)
+  logo: "logo-dark-text.png"
+
+  # Dark mode logo (for dark mode)
+  logo_dark: "logo-light-text.png"
+
+  # Show logo only on homepage?
+  show_logo_on_homepage_only: false 
+  
+  # Text logo color.
+  text_color: ''
 
 # Site footer
 
@@ -116,23 +130,3 @@ extensions:
 publications:
   date_format: January 2006
   citation_style: apa
-# Appearance style
-
-appearance:
-  mode: system
-  color: blue
-
-  # Site header
-header:
-  # Logo.
-  # Main logo (for light mode)
-  logo: "logo-dark-text.png"
-
-  # Dark mode logo (for dark mode)
-  logo_dark: "logo-light-text.png"
-
-  # Show logo only on homepage?
-  show_logo_on_homepage_only: false 
-  
-  # Text logo color.
-  text_color: ''
