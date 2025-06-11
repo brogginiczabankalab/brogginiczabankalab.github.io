@@ -42,7 +42,7 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
-    logo:"logo-dark-text.png"
+    logo: "logo-dark-text.png"
     logo_dark: "logo-light-text.png"
       text: "Your Name"
 
