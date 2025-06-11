@@ -61,6 +61,3 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
-appearance:
-  mode: system
-  color: blue
