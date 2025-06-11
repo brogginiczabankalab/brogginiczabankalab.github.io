@@ -133,3 +133,6 @@ header:
 
   # Show logo only on homepage?
   show_logo_on_homepage_only: false 
+  
+  # Text logo color.
+  text_color: ''
