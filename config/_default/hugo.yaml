@@ -3,25 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-#title: Broggini Czabanka Experimental Neurosurgery # Website name
-#baseURL: 'brogginiczabankalab.github.io' # Website URL
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
-      # Logo.
-  # Main logo (for light mode)
-  logo: "logo-dark-text.png"
-
-  # Dark mode logo (for dark mode)
-  logo_dark: "logo-light-text.png"
-
-  # Show logo only on homepage?
-  show_logo_on_homepage_only: false 
-  
-  # Text logo color.
-  text_color: ''
+title: Broggini Czabanka Experimental Neurosurgery # Website name
+baseURL: 'brogginiczabankalab.github.io' # Website URL
 
 ############################
 ## LANGUAGE
