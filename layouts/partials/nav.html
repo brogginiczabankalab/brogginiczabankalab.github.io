@@ -1,43 +1,16 @@
-{{- $show_logo := .Site.Params.branding -}}
+{{/* Simplified nav.html for debugging */}}
 <nav class="navbar navbar-expand-lg navbar-light" id="main-nav">
   <div class="container">
-    {{ if $show_logo }}
-      <a class="navbar-brand" href="{{ "" | relLangURL }}">
-        <img class="logo-light" src="{{ .Site.Params.logo_light_theme | relURL }}" alt="{{ .Site.Title }}">
-        <img class="logo-dark" src="{{ .Site.Params.logo_dark_theme | relURL }}" alt="{{ .Site.Title }}">
-      </a>
-    {{ else }}
-      <a class="navbar-brand" href="{{ "" | relLangURL }}">{{ .Site.Title }}</a>
-    {{ end }}
 
-    {{/* This is the rest of the original nav.html file, which handles the menu and theme toggler */}}
+    <a class="navbar-brand" href="{{ "" | relLangURL }}">
+      <p>Testing Logo:</p> 
+      <img src="/images/logo-dark-text.png" alt="Test Logo" style="max-height: 40px; border: 1px solid red;">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar-menu">
       <ul class="navbar-nav ms-auto">
-        {{- $current := . -}}
-        {{- range .Site.Menus.main -}}
-        {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
-        {{- $active = or $active (eq .Name $current.Title) -}}
-        {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog")) -}}
-        {{- $active = or $active (and (eq .Name "Project") (eq $current.Section "project")) -}}
-        <li class="nav-item">
-          <a class="nav-link{{if $active}} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
-        </li>
-        {{- end -}}
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-globe"></i>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
-            {{ range $.Site.Home.AllTranslations }}
-            <a class="dropdown-item" href="{{ .Permalink }}">
-              {{ .Language.LanguageName }}
-            </a>
-            {{ end }}
-          </div>
-        </li>
         <li class="nav-item">
           <a class="nav-link" id="theme-toggle" href="#"><i class="fas fa-moon"></i></a>
         </li>
