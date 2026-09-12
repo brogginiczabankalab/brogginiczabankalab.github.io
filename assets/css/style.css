@@ -849,3 +849,31 @@ html:not([data-theme="dark"]) .hero h1 .accent {
 }
 .equip li b { color: var(--fg); font-weight: 600; }
 .equip li span { color: var(--fg-faint); }
+
+/* ==========================================================================
+   Legal pages (Impressum)
+   ========================================================================== */
+.legal { max-width: 68ch; }
+.legal h2 {
+  font-size: clamp(1.25rem, 2.1vw, 1.6rem);
+  margin: clamp(2.4rem, 5vw, 3.4rem) 0 .9rem;
+  padding-bottom: .6rem; border-bottom: 1px solid var(--line);
+}
+.legal h2:first-child { margin-top: 0; }
+.legal h3 {
+  font-family: var(--font-body); font-size: 1rem; font-weight: 650;
+  letter-spacing: 0; margin: 1.8rem 0 .4rem;
+}
+.legal p { color: var(--fg-mute); font-size: .97rem; }
+.legal a { color: var(--accent); text-decoration: none; }
+.legal a:hover { text-decoration: underline; }
+.legal address { font-style: normal; color: var(--fg); line-height: 1.75; }
+.legal ul { color: var(--fg-mute); font-size: .95rem; padding-left: 1.1rem; margin: 0 0 1.1em; }
+.legal li { margin-bottom: .35rem; }
+.legal .note {
+  border-left: 3px solid var(--accent); background: color-mix(in srgb, var(--accent) 5%, transparent);
+  padding: .9rem 1.1rem; border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: .9rem; color: var(--fg-mute); margin: 1.2rem 0;
+}
+.legal .note strong { color: var(--fg); }
+.legal .updated { font-family: var(--font-mono); font-size: .78rem; color: var(--fg-faint); margin-top: 2.5rem; }
