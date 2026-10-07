@@ -877,3 +877,8 @@ html:not([data-theme="dark"]) .hero h1 .accent {
 }
 .legal .note strong { color: var(--fg); }
 .legal .updated { font-family: var(--font-mono); font-size: .78rem; color: var(--fg-faint); margin-top: 2.5rem; }
+
+/* Two-by-two variant for four-card groups (New students page) */
+@media (min-width: 760px) {
+  .equip-grid--2 { grid-template-columns: repeat(2, 1fr); }
+}
