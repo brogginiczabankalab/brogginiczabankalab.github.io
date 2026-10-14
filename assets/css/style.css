@@ -514,9 +514,12 @@ html[data-theme="dark"] .icon-sun, html:not([data-theme="dark"]) .icon-moon { di
 .g-lg { grid-column: span 7; aspect-ratio: 16/10; }
 .g-sm { grid-column: span 5; aspect-ratio: 16/10; }
 .g-md { grid-column: span 4; aspect-ratio: 4/3; }
+.g-tall { grid-column: span 4; aspect-ratio: 3/4; }
+.g-pt { grid-column: span 3; aspect-ratio: 3/4; }
 @media (max-width: 780px) {
   .g-lg, .g-sm { grid-column: span 12; }
-  .g-md { grid-column: span 6; }
+  .g-md, .g-pt { grid-column: span 6; }
+  .g-tall { grid-column: span 12; }
 }
 
 .lightbox {
