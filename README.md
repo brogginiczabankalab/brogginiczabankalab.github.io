@@ -71,12 +71,12 @@ Portrait sources:
 - cropped from the 2024 group photo `IMG_5082.jpeg` — **Weiji Jia**, **Xiao Liu**,
   **Maximilian Geißler** (own material, so no third-party licence question)
 - clinic website — **Thomas Broggini** only, saved as
-  `broggini-thomas-klinik.jpg`
+  `broggini-thomas-v2.jpg`
   (`unimedizin-ffm.de/fileadmin/_processed_/7/6/csm_Broggini_Thomas_*.jpg`)
 
 **A note on caching.** When you replace an image, browsers keep showing the old
 one until the cache expires. Give the new file a *different name* and update the
-`<img src="...">` — that is why the PI portrait is `broggini-thomas-klinik.jpg`
+`<img src="...">` — that is why the PI portrait is `broggini-thomas-v2.jpg`
 rather than overwriting `broggini-thomas.jpg`. Otherwise, `Ctrl`+`F5` forces a
 reload for you but not for your visitors.
 
