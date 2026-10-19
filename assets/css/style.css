@@ -885,3 +885,8 @@ html:not([data-theme="dark"]) .hero h1 .accent {
 @media (min-width: 760px) {
   .equip-grid--2 { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* Training cards (New students page) */
+.train-who { font-size: .86rem; color: var(--fg-mute); margin: -.4rem 0 1rem; line-height: 1.5; }
+.equip li a b { color: var(--accent); }
+.equip li a:hover b { text-decoration: underline; }
